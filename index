@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forge privacy policy</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f3f5f9; --card: #fff; --text: #0d111a; --dim: #525c70; --accent: #4c9a00; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #07080c; --card: #13161e; --text: #f4f6fb; --dim: #9aa3b5; --accent: #b6ff3b; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  .date { color: var(--dim); margin: 0 0 24px; }
+  section { background: var(--card); border-radius: 16px; padding: 18px 20px; margin-bottom: 12px; }
+  h2 { font-size: 18px; margin: 0 0 8px; color: var(--accent); }
+  p { margin: 0 0 8px; color: var(--dim); }
+</style>
+</head>
+<body>
+<main>
+<h1>Forge privacy policy</h1>
+<p class="date">Updated 26 October 2026</p>
+<section>
+<h2>Summary</h2>
+<p>Forge is a fitness tracker. Your data stays on your phone unless you create an account. With an account it is stored in our cloud database so it can sync and, if you choose, be shared with a coach you link.</p>
+<p>We do not sell your data, show ads, or use third-party analytics or tracking.</p>
+</section>
+<section>
+<h2>What we store</h2>
+<p>Account: your email address and a securely hashed password.</p>
+<p>What you enter: food diary, meals, targets, bodyweight and measurements, training plans and workouts, gym machines, check-ins, notes, reminders and settings.</p>
+<p>Progress photos: if you are signed in, photos you add are uploaded to private storage so a linked coach can see them.</p>
+<p>Health tracker: bloodwork, blood pressure, side effects and any medications or substances you choose to log. This is sensitive health information. Only enter what you are comfortable storing.</p>
+<p>Notifications: if you turn on notifications, a push token that lets us send coach messages to your phone.</p>
+</section>
+<section>
+<h2>How we use it</h2>
+<p>Only to run the app: syncing your data between your phones, showing it to the coach you link, and sending the notifications you turn on. We do not use your data for advertising or profiling.</p>
+</section>
+<section>
+<h2>Sharing with a coach</h2>
+<p>If you link a coach with an invite code, that coach can see all of your Forge data, including progress photos and your health tracker entries, and can send you new targets and training plans. You can disconnect your coach at any time in the app, which stops all sharing.</p>
+</section>
+<section>
+<h2>Service providers</h2>
+<p>Supabase hosts the database, login and photo storage.</p>
+<p>Expo delivers push notifications using your push token and the message text.</p>
+<p>Open Food Facts receives the barcode number when you scan a product, to look up its nutrition.</p>
+<p>These providers process data only to provide their service.</p>
+</section>
+<section>
+<h2>Keeping and deleting your data</h2>
+<p>Data on your phone stays until you delete it or remove the app.</p>
+<p>Cloud data stays while you have an account. You can delete your account in the app under More &gt; Account &amp; sync &gt; Delete account. This permanently deletes your login, synced data, photos, coach links and messages.</p>
+<p>You can also export everything at any time under More &gt; Backup &amp; restore.</p>
+</section>
+<section>
+<h2>Security</h2>
+<p>Data is sent over encrypted connections. Database rules make sure each account can only read its own data, plus the data of clients who linked them as coach. Photos are only reachable through links that expire after an hour.</p>
+</section>
+<section>
+<h2>Age and medical use</h2>
+<p>Forge is meant for adults aged 17 and over.</p>
+<p>Forge gives general fitness information, not medical advice. The health tracker does not give dosing or treatment advice. Talk to a doctor about any medication, substance or health concern.</p>
+</section>
+<section>
+<h2>Your rights and contact</h2>
+<p>You can ask to see, correct or delete your data, or ask any question about this policy, by emailing kubilaytroyaaa@gmail.com.</p>
+<p>If this policy changes, the new version will be shown in the app with a new date.</p>
+</section>
+</main>
+</body>
+</html>
